@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/2f4b0c8ab0.js" crossorigin="anonymous"></script>
+    <title>Index | Kakao Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <i class="far fa-window-minimize"></i>
+            <i class="far fa-square"></i>
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__header-column">
+            <h1 class="header__title">채팅</h1>
+        </div>
+        <div class="header__header-column">
+            <span class="header__icon"><i class="far fa-comments"></i></span>
+            <span class="header__icon"><i class="fas fa-plus"></i></span>
+        </div>
+    </header>
+    <main class="chats"> 
+            <!-- Main class means main component of this site. -->
+        <div class="chats__search">
+            <input type="text" placeholder="채팅방 이름, 참여자 검색">
+        </div>    
+        <ul class="chats__list">
+            <li class="chats__chat chat">
+                    <!-- He assume that one chat block have two columns     -->
+                <div class="chat__column">
+                    <img src="images/profile.png" class="chat__avatar" />
+                    <div class="chat__content">
+                        <span class="chat__username">김민주</span>
+                        <span class="chat__preview">나는 와인막걸리파</span>
+                    </div>
+                </div>
+                <div class="chat__column">
+                    <span class="chat__timestamp">Yesterday</span>
+                </div>
+            </li>
+        </ul> 
+    </main>
+    <nav class="side-bar">
+        <ul class="side-bar__list">
+            <li class="side-bar__list-item"><a href="friends.html" class="side-bar__list-link"><i class="fas fa-user"></i></a></li>
+            <li class="side-bar__list-item"><a href="index.html" class="side-bar__list-link"><i class="fas fa-comment"></i></a></li>
+            <li class="side-bar__list-item"><a href="settings.html" class="side-bar__list-link"><i class="fas fa-ellipsis-h"></i></a></li>
+            <li class="side-bar__list-item"><a href="#" class="side-bar__list__list-link"><i class="far fa-smile"></i></a></li>
+            <li class="side-bar__list-item"><a href="#" class="side-bar__list__list-link"><i class="far fa-calendar-check"></i></a></li>
+            <li class="side-bar__list-item"><a href="#" class="side-bar__list__list-link"><i class="far fa-bell"></i></a></li>
+            <li class="side-bar__list-item"><a href="#" class="side-bar__list__list-link"><i class="fas fa-bars"></i></a></li>    
+        </ul>
+    </nav>
+                
+            
+</body>
+</html>
