@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/2f4b0c8ab0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
     <title>Chat | KaKao Clone</title>
 </head>
 <body>
@@ -25,7 +26,43 @@
         </div>
     </header>
     <main class="chat">
-        
+        <ul class="chat__messages">
+            <span class="chat__timestamp">2020년 4월 11일</span>
+            <li class="incoming-message message">
+                <img src="images/profile.PNG" alt="" class="g-avatar message__avatar" width="200" height="200" />
+                <div class="message__content">
+                    <span class="message__author">김민주</span>
+                    <div class="message__bubble">
+                        알바도 안하고 이써???
+                    </div>
+                </div>
+                <span class="message__timestamp">오후 7:34</span>
+            </li>
+            <li class="incoming-message message">
+                <span class="message__timestamp">오후 8:00</span>
+                <div class="message__content">
+                    <div class="message__bubble">
+                        알바 안구해지지 않을까 ㅠㅠ
+                    </div>
+                </div>
+            </li>
+        </ul>
     </main>
+    <div class="chat__write">
+        <div class="chat__write-column">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="chat__write-column">
+            <input type="text" class="chat__write-input" />
+        </div>
+        <div class="chat__write-column">
+            <span class="chat__write-icon">
+                <i class="far fa-smile-wink"></i>
+            </span>
+            <span class="chat__write-icon">
+                <i class="fas fa-microphone"></i>
+            </span>
+        </div>
+    </div>
 </body>
 </html>
