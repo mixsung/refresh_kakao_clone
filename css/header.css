@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* 상위 클래스도 적어주기 */
+.header .header__title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header i{
+    font-size: 20px;
+    margin-left: 5px;
+}
